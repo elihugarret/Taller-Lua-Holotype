@@ -22,9 +22,7 @@ http://www.lua.org/
 Instalación
 =====================
 
-A los participantes del taller les fue enviado vía correo electrónico un archivo con formato ".zip", en caso de que alguien deseé el software, escríbame al siguiente correo electrónico: isomorphic_cluster@outlook.com
-
-El software se distribuye de este modo para llevar un registro de la pequeña pero creciente comunidad que forma parte del proyecto. De igual modo el software esta disponible para su descarga y uso gratutito en la siguiente dirección: https://github.com/elihugarret/Holotype-Helix
+El software esta disponible para su descarga y uso gratutito en la siguiente dirección: https://github.com/elihugarret/Holotype-Helix
 
 El software está diseñado para Windows y Linux. En caso de que su sistema operativo sea MacOs, necesitará instalar el programa Wine, más al respecto en la página de Facebook del Taller de Live Coding ESFM.
 
