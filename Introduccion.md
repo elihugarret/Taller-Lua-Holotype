@@ -20,8 +20,6 @@ más importantes:
 
 [Fluxus](http://www.pawfal.org/fluxus/) motor para la generación de visuales en 3D, que usa como interfaz el lenguaje funcional Racket.
 
-[vvvv](http://vvvv.org/) lenguaje visual para el desarrollo de proyectos visuales.
-
 #Lua
 
 El objetivo principal del taller es que el alumno aprenda los conceptos matemáticos detrás de la programación
