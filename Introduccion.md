@@ -23,6 +23,6 @@ más importantes:
 #Lua
 
 El objetivo principal del taller es que el alumno aprenda los conceptos lógicos y matemáticos detrás de la programación,
-para eso utilizaremos el lenguaje Lua. 
+para eso utilizaremos el lenguaje [Lua](http://www.lua.org/). 
 
 Este lenguaje de programación rápido, ligero, integrable y muy fácil de usar. Fue desarrollado en 1993 en la PUC-Rio (Pontificia Universidad Católica de Rio de Janeiro) por Roberto Ierusalimschy, Waldemar Celes y Luiz Henrique de Figueiredo
