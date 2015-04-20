@@ -31,7 +31,7 @@ Este lenguaje de programación rápido, ligero, integrable y muy fácil de usar.
 
 [Moonlet](https://github.com/elihugarret/Moonlet) es un módulo para hacer live coding en Lua, es un proyecto personal y diseñado para el Taller de LiveCoding en la Escuela Superior de Física y Matemáticas.
 A diferencia de otros lenguajes y librerías, este módulo carece de comunidad y se encuentra constantemente en desarrollo, a pesar de esto es muy estable y funcional.
-El constante desarrollo del módulo permite que los alumnos he interesados agreguen nuevas funciones e implementaciones nuevas al proyecto, además de que es posible que generen su versión personalizada.
+El constante desarrollo del módulo permite que los alumnos e interesados agreguen nuevas funciones e implementaciones nuevas al proyecto, además de que es posible que generen su versión personalizada.
 Usa la librería [proAudioRt](http://viremo.eludi.net/proteaAudio/index.html) escrita en C++ por Gerald Franz.
 
 ###Midmoon
