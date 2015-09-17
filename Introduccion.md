@@ -62,24 +62,24 @@ Pueden correr los siguientes ejemplos en su editor de textos presionando Ctrl + 
 
 -- Suma
 
-print('\nResultado suma',3 + 4)
+print('\nResultado suma ',3 + 4)
 
 -- Resta
 
-print('\nResultado resta',3 - 4)
+print('\nResultado resta ',3 - 4)
 
 -- Multiplicación
 
-print('\nResultado multiplicacion',3 * 4)
+print('\nResultado multiplicacion ',3 * 4)
 
 -- División
 
-print('\nResultado division',3 / 4)
+print('\nResultado division ',3 / 4)
 
 -- Módulo
 -- esta operación regresa el residuo de la división
 
-print('\nResultado módulo',3 % 4)
+print('\nResultado módulo ',3 % 4)
 
 ```
 
@@ -91,19 +91,19 @@ Un booleano solo puede tener dos valores "true" y "false". Estos pueden obteners
 
 -- Igualdad
 
-print("\nSon iguales?",3 == 4)
+print("\nSon iguales? ",3 == 4)
 
 -- Diferencia
 
-print("\nSon distintos?",3 ~= 4)
+print("\nSon distintos? ",3 ~= 4)
 
 -- Mayor que
 
-print("\nEs mayor?",3 >= 4)
+print("\nEs mayor? ",3 >= 4)
 
 -- Menor que
 
-print("\nEs menor?",3 <= 4)
+print("\nEs menor? ",3 <= 4)
 
 ```
 
@@ -125,7 +125,7 @@ print 'hola'
 -- si es un string largo, podemos usar doble corchete 
 
 print[[
-  hola
+  hola,
   este
   es
   un
@@ -150,8 +150,8 @@ Las tabla es la única estructura de datos en Lua. En estas podemos guardar cole
 
 local frutas = {'manzana', 'uva', 'piña', 'melon'} -- se asigna a la variable frutas una tabla
 
-print("\nLafruta que esta en el índice 1 es", frutas[1]) -- se imprime "manzana" 
-print("\nLafruta que esta en el índice 3 es", frutas[3]) -- se imprime "piña"
+print("\nLafruta que esta en el índice 1 es ", frutas[1]) -- se imprime "manzana" 
+print("\nLafruta que esta en el índice 3 es ", frutas[3]) -- se imprime "piña"
 
 -- Si queremos cambiar un elemento por uno distinto, hacemos lo siguiente:
 
@@ -205,7 +205,7 @@ local escala = ('c4 d4 e4 f4 g4 a4 b4'):n() --este código genera una tabla con 
 
 -- creamos un "loop" o ciclo que suene cada nota guardada en la variable escala
 for _, escala in ipairs(escala) do
-  m_seq{ -- funcion especial que convierte tablas y las envía como mensajes midi
+  moon.m_seq{ -- funcion especial que convierte tablas y las envía como mensajes midi
     seq = escala, -- la secuencia de notas a sonar
     dur = 4/16, -- la duración de las notas
     vel = 70, -- el volúmen
@@ -219,7 +219,7 @@ También trabajaremos visuales en Fugu, el siguiente código es para cargar una 
 ```lua
 module(...,package.seeall) -- en fugu todo inicia con esta función
 
-local nodo -- creamos una variable local llamada "nodo"
+local nodo, figura -- creamos una variable local llamada "nodo" y otra "figura" en una sola línea
 
 function setup() -- Inicializamos
  figura = sphere() -- también podemos usar cube(), entre otras figuras.
