@@ -192,3 +192,39 @@ end
 print("\nEl resultado de la funcion es ", suma(3,4) ) -- se imprime y se ejecuta la función
 ```
 
+#Ejemplos
+
+Una vez instalados los módulos necesarios para generar sonido podemos ejecutar el siguiente código:
+
+```lua
+--Escala de Do Mayor
+
+local moon = require 'moonlet' --se carga la librería moonlet
+
+local escala = ('c4 d4 e4 f4 g4 a4 b4'):n() --este código genera una tabla con las notas.
+
+-- creamos un "loop" o ciclo que suene cada nota guardada en la variable escala
+for _, escala in ipairs(escala) do
+  m_seq{ -- funcion especial que convierte tablas y las envía como mensajes midi
+    seq = escala, -- la secuencia de notas a sonar
+    dur = 4/16, -- la duración de las notas
+    vel = 70, -- el volúmen
+    port = 0, -- el puerto al que se enviará cada nota
+  }
+end
+```
+
+También trabajaremos visuales en Fugu, el siguiente código es para cargar una esfera
+
+```lua
+module(...,package.seeall) -- en fugu todo inicia con esta función
+
+local nodo -- creamos una variable local llamada "nodo"
+
+function setup() -- Inicializamos
+ figura = sphere() -- también podemos usar cube(), entre otras figuras.
+ nodo = meshnode(figura) -- ponemos la figura en el nodo
+ fgu:add(nodo) -- ponemos la figura en pantalla
+end
+
+```
