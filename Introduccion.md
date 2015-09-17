@@ -34,6 +34,14 @@ A diferencia de otros lenguajes y librerías, este módulo carece de comunidad y
 El constante desarrollo del módulo permite que los alumnos e interesados agreguen nuevas funciones e implementaciones nuevas al proyecto, además de que es posible que generen su versión personalizada.
 Usa la librería [proAudioRt](http://viremo.eludi.net/proteaAudio/index.html) escrita en C++ por Gerald Franz.
 
-###Midmoon
+El objetivo de Moonlet no es la síntesis de audio, ya que existen programas que lo hacen de una mejor y más eficiente manera. La librería está diseñada para controlar otros programas de audio, enviando mensajes MIDI y OSC a otras aplicaciones.
 
-Midmoon es un módulo para secuenciar mensajes MIDI, se encuentra dentro del proyecto Moonlet. Usa la librería escrita en C++ [lovemidi](https://github.com/elihugarret/lovemidi).
+##Fugu
+
+[Fugu](http://www.csse.monash.edu.au/~cema/fugu/about.html) es una aplicación para modelar y manipular con código objetos en 3D. Y sí, usa Lua.
+
+
+#Instalación (Windows)
+
+Para fines prácticos, en el taller se distribuirá un archivo comprimido con lo necesario para comenzar con las clases. La ventaja de usar Lua es su portabilidad, no es necesario instalar nada, solo es necesario realizar algunas configuraciones en el sistema.
+El diseño de la librería fue realizado en Windows 7, y se ha probado su compatibilidad en Windows XP, Vista y 8. También se han compilado librerías para Linux, en específico en Ubuntu 12.04.
